@@ -6,10 +6,66 @@ function Group_Classes() {
   const [email, setEmail] = useState("");
   const [className, setClassName] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Thank you for registering, ${name}! You have been signed up for ${className}.`);
+
+    // Create the data object
+    const registrationData = {
+      name,
+      email,
+      className,
+    };
+
+    try {
+      // Make the API call
+      const response = await fetch("http://localhost:3000/registration/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(registrationData),
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        alert("Registration successful!");
+        console.log("Response:", result);
+        // Reset form fields
+        setName("");
+        setEmail("");
+        setClassName("");
+      } else {
+        alert("Registration failed. Please try again.");
+        console.error("Error:", await response.text());
+      }
+    } catch (error) {
+      console.error("Network error:", error);
+      alert("Network error. Please try again.");
+    }
   };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   const classes = [
     { name: "Yoga", time: "9:00 AM - 10:00 AM", description: "A relaxing morning yoga session" },

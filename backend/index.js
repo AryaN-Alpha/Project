@@ -11,6 +11,7 @@ app.use(cors());
 app.use(express.json()); // Parse JSON bodies
 
 app.use('/api', require('./routes/auth'));
+app.use('/reg', require('./routes/reg'));
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
