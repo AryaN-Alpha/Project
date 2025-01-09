@@ -182,4 +182,8 @@ const Personal_Training = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Personal_Training;
+=======
+export default Personal_Training;
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664

@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
@@ -13,7 +18,10 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "socket.io-client": "^4.8.1",
+=======
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,10 +47,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "jest": "^27.5.1"
+=======
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
   }
 }

@@ -16,7 +16,11 @@ function Navbar() {
           <Link className="nav-link" to="/">Home </Link>
         </li>
         <li className="nav-item">
+<<<<<<< HEAD
           <Link className="nav-link" to="/Client">Link</Link>
+=======
+          <Link className="nav-link" to="@">Link</Link>
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="@">Link</Link>
@@ -24,6 +28,10 @@ function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="@">AboutUs</Link>
         </li>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
       </ul>
       <div className="form-inline my-2 my-lg-0">
         <Link className="btn btn-outline-light my-2 my-sm-0 mr-2" to="/login">Login</Link>

@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 /* Add hover effect for the cards */
 .service-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -47,3 +48,5 @@
   filter: brightness(1.1); /* Adds a slight brightness effect */
   cursor: pointer;
 }
+=======
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664

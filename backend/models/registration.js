@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const mongoose = require('mongoose');
+=======
+    const mongoose = require('mongoose');
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
 
     // Define the schema for the registration form
     const registrationSchema = new mongoose.Schema({
@@ -29,4 +33,8 @@ const mongoose = require('mongoose');
     // Create the model based on the schema
     const Registration = mongoose.model('Registration', registrationSchema);
 
+<<<<<<< HEAD
     module.exports = Registration;
+=======
+    module.exports = Registration;
+>>>>>>> 9dd821d667dba30e3a0cba96695fc1f8794dc664
